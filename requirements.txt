@@ -1,0 +1,10 @@
+deepface
+tf-keras
+tensorflow
+ultralytics
+opencv-python
+numpy
+scikit-learn
+matplotlib
+pandas
+requests

@@ -1,0 +1,4 @@
+,1-NN cosine,3-NN cosine,Linear SVM,RBF SVM
+Facenet512,1.0,1.0,1.0,1.0
+ArcFace,1.0,1.0,1.0,1.0
+VGG-Face,1.0,1.0,1.0,1.0
