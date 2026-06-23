@@ -1,0 +1,41 @@
+
+USER IMAGE SETUP INSTRUCTIONS
+
+To use the face authentication system with your own identity, place approximately 15 images of your face inside this folder.
+
+Recommended image requirements:
+
+* Use clear, high-quality images.
+* Only one face should be visible in each image.
+* Include different head positions:
+
+  * Looking straight at the camera
+  * Slightly left
+  * Slightly right
+  * Looking up
+  * Looking down
+* Include different facial expressions:
+
+  * Neutral
+  * Smiling
+  * Serious
+* Include variations in lighting conditions.
+* If you wear glasses, include both glasses and non-glasses images when possible.
+* Ensure your face occupies a significant portion of the image.
+
+Example:
+
+user/
+├── 00.jpg
+├── 01.jpg
+├── 02.jpg
+├── ...
+└── 14.jpg
+
+After adding your images:
+
+1. Run `embeddings.py` to regenerate the facial embedding database.
+2. Run `authenticate.py` to launch the authentication system.
+3. The system will then be able to recognize and authenticate your identity.
+
+For best results, use at least 10–15 images captured from different angles and under different lighting conditions.
